@@ -29,7 +29,6 @@ Siga estes passos para configurar e executar o projeto em seu ambiente local.
 
 ### 1. Clonar o Repositório
 
-```bash
 git clone [https://github.com/kleberlessa/lessa-transformer.git](https://github.com/kleberlessa/lessa-transformer.git)
 cd lessa-transformer`
 
@@ -80,7 +79,6 @@ Desenvolvido por Kleber Lessa.
 2.  **Lembre-se** de trocar os *placeholders* (Links e Email) pelos seus dados.
 3.  Execute os comandos Git para atualizar o repositório:
 
-```bash
 git add README.md
 git commit -m "docs: Estrutura final e coesa do README.md."
 git push origin main`
