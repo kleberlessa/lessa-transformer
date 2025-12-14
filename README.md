@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfólio Híbrido: Kleber Lessa
 
-## Getting Started
+Um website pessoal de página única (SPA-style) criado como ponto de partida para a transição de carreira de Designer/Ilustrador para **Desenvolvedor Web Full-Stack e Entusiasta de IA**.
 
-First, run the development server:
+`Um portfólio moderno e de alta performance, projetado para desenvolvedores Full-Stack que valorizam velocidade, segurança e experiência do usuário. Construído com tecnologias de ponta, este projeto serve como uma vitrine de projetos e habilidades técnicas.
+
+## ✨ Destaques do Projeto
+
+* ****Next.js (App Router):**** Estrutura moderna e alto desempenho para renderização.
+* ****TypeScript:**** Garantia de segurança de tipos e código escalável.
+* ****Tailwind CSS:**** Desenvolvimento rápido e consistente com utilitários CSS.
+* ****Design Dark Mode:**** Paleta de cores focada em contraste (Ciano `#4ecdc4` e Vermelho/Rosa `#cc4a4a`) com acessibilidade WCAG AA garantida.
+* ****Performance:**** Otimizações de imagem (Next/Image) e correções de Hydration Error.
+
+## 🛠️ Tecnologias Utilizadas
+
+* Next.js 16+
+* React
+* TypeScript
+* Tailwind CSS
+
+## ⚙️ Instalação e Execução Local
+
+Siga estes passos para configurar e executar o projeto em seu ambiente local.
+
+### Pré-requisitos
+* Node.js (versão LTS recomendada)
+* npm ou yarn
+
+### 1. Clonar o Repositório
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone [https://github.com/kleberlessa/lessa-transformer.git](https://github.com/kleberlessa/lessa-transformer.git)
+cd lessa-transformer`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalar Dependências
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`npm install
+# ou
+yarn install`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Executar o Servidor de Desenvolvimento
 
-## Learn More
+`npm run dev
+# ou
+yarn dev`
 
-To learn more about Next.js, take a look at the following resources:
+O projeto estará acessível em `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Estrutura do Projeto
 
-## Deploy on Vercel
+`/
+├── app/                  # Rotas e Layout Principal
+│   ├── layout.tsx        # Layout base (RootLayout)
+│   └── page.tsx          # Página principal (Home)
+├── public/               # Assets estáticos (Logo, Imagens de Projeto, Favicon)
+├── src/
+│   └── components/       # Componentes reutilizáveis
+│       ├── Contact.tsx   # Seção de Contato (Formulário)
+│       ├── Hero.tsx      # Seção de Destaque (Título e Logo Centralizada)
+│       ├── Navbar.tsx    # Navegação superior
+│       └── Portfolio.tsx # Seção de Projetos
+├── .env                  # Variáveis de ambiente
+├── tailwind.config.ts    # Configurações do Tailwind
+└── package.json          # Dependências e Scripts`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contato
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Conecte-se comigo!
+
+---
+
+Desenvolvido por Kleber Lessa.
+
+`### 💾 Próximas Ações
+
+1.  **Salve** o arquivo `README.md` com o conteúdo acima.
+2.  **Lembre-se** de trocar os *placeholders* (Links e Email) pelos seus dados.
+3.  Execute os comandos Git para atualizar o repositório:
+
+```bash
+git add README.md
+git commit -m "docs: Estrutura final e coesa do README.md."
+git push origin main`
