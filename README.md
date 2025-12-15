@@ -56,6 +56,7 @@ O projeto estará acessível em `http://localhost:3000`.
 
 ## 📂 Estrutura do Projeto
 
+```text
 /
 ├── app/                  # Rotas e Layout Principal
 │   ├── layout.tsx        # Layout base (RootLayout)
@@ -70,6 +71,7 @@ O projeto estará acessível em `http://localhost:3000`.
 ├── .env                  # Variáveis de ambiente
 ├── tailwind.config.ts    # Configurações do Tailwind
 └── package.json          # Dependências e Scripts
+```
 
 ## 🤝 Contato
 
