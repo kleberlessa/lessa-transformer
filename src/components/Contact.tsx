@@ -97,9 +97,9 @@ const Contact: React.FC = () => {
                   <Image
                       src="/logo_001-Ciano10-azul-meia-noite_.svg"
                       alt="Logo Kleber Lessa"
-                      width={60}
-                      height={60}
-                      sizes="60px" // Otimização final
+                      width={80}
+                      height={80}
+                      sizes="80px" // Otimização final
                   />
               </div>
           </div>
