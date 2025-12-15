@@ -70,17 +70,21 @@ const Contact: React.FC = () => {
           </button>
         </form>
 
-        <div className="mt-16 pt-8 border-t border-gray-800">
-          <p className="text-gray-500 text-sm">Ou entre em contato diretamente:</p>
-          <div className="flex justify-center space-x-6 mt-4">
+        <div className="flex justify-center space-x-6 mt-4">
             {/* Links sociais rápidos */}
-            <a href="mailto:kleber@exemplo.com" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium">
+            <a href="mailto:kleber@exemplo.com" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+            >
               Email
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+            >
               LinkedIn
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+            >
               GitHub
             </a>
           </div>
