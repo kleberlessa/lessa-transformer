@@ -40,13 +40,15 @@ const Hero: React.FC = () => {
             <div className="flex justify-center space-x-4">
                 <a 
                     href="#portfolio" 
-                    className="px-8 py-3 text-lg font-semibold rounded-full bg-[#cc4a4a] text-white hover:bg-[#b03d3d] transition duration-300 shadow-lg"
+                    className="px-8 py-3 text-lg font-semibold rounded-full bg-[#cc4a4a] text-white hover:bg-[#b03d3d] transition duration-300 shadow-lg
+                    focus:outline-none focus:ring-4 focus:ring-[#cc4a4a] focus:ring-opacity-50" // <<< CORREÇÃO A-1: Focus State claro
                 >
                     Ver Portfólio
                 </a>
                 <a 
                     href="#contact" 
-                    className="px-8 py-3 text-lg font-semibold rounded-full border-2 border-[#4ecdc4] text-[#4ecdc4] hover:bg-[#4ecdc4] hover:text-[#0a0a0a] transition duration-300 shadow-lg"
+                    className="px-8 py-3 text-lg font-semibold rounded-full border-2 border-[#4ecdc4] text-[#4ecdc4] hover:bg-[#4ecdc4] hover:text-[#0a0a0a] transition duration-300 shadow-lg
+                    focus:outline-none focus:ring-4 focus:ring-[#4ecdc4] focus:ring-opacity-50" // <<< CORREÇÃO A-1: Focus State claro
                 >
                     Fale Comigo
                 </a>
