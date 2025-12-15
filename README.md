@@ -89,6 +89,6 @@ Desenvolvido por Kleber Lessa.
 
 ```bash
 git add README.md
-git commit -m "docs: Estrutura final e coesa do README.md."
+git commit -m
 git push origin main
 ```
