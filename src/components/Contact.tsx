@@ -1,7 +1,7 @@
-// src/components/Contact.tsx (BLOCO RETURN COMPLETO E CORRIGIDO)
+// src/components/Contact.tsx (VERSÃO FINAL E CORRIGIDA)
 
 import React from 'react';
-import Image from 'next/image'; 
+import Image from 'next/image';
 
 const Contact: React.FC = () => {
   return (
@@ -70,20 +70,22 @@ const Contact: React.FC = () => {
           </button>
         </form>
 
-        <div className="flex justify-center space-x-6 mt-4">
-            {/* Links sociais rápidos */}
+        <div className="mt-16 pt-8 border-t border-gray-800">
+          <p className="text-gray-500 text-sm">Ou entre em contato diretamente:</p>
+          <div className="flex justify-center space-x-6 mt-4">
+            {/* Links sociais rápidos - COM FOCUS STATE PARA ACESSIBILIDADE */}
             <a href="mailto:kleber@exemplo.com" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
-              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               Email
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
-              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               LinkedIn
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
-              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md" // <<< CORREÇÃO A-2: Focus State
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               GitHub
             </a>
@@ -95,8 +97,9 @@ const Contact: React.FC = () => {
                   <Image
                       src="/logo_001-Ciano10-azul-meia-noite_.svg"
                       alt="Logo Kleber Lessa"
-                      width={40}
-                      height={40}
+                      width={60}
+                      height={60}
+                      sizes="60px" // Otimização final
                   />
               </div>
           </div>
