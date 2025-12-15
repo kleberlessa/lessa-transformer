@@ -1,4 +1,4 @@
-// src/components/Hero.tsx (NOVO POSICIONAMENTO DA LOGO)
+// src/components/Hero.tsx
 
 import React from 'react';
 import Image from 'next/image';
@@ -17,13 +17,13 @@ const Hero: React.FC = () => {
             
             {/* 1. LOGO CENTRALIZADA NO TOPO DO HERO */}
             <div className="flex justify-center mb-6">
-                {/* Usando o mesmo tamanho (40x40) ou um pouco maior, 60x60, para destaque */}
                 <div className="text-transparent transition-transform duration-300 hover:scale-110">
                     <Image
                       src="/logo_001-Ciano10-azul-meia-noite_.svg"
                       alt="Logo Kleber Lessa"
-                      width={60} // Aumentado para 60px para destaque
-                      height={60}
+                      width={120} // <<< CORREÇÃO O-1: Aumentado para 120px
+                      height={120} // <<< CORREÇÃO O-1: Aumentado para 120px
+                      sizes="(max-width: 768px) 100px, 120px" // <<< CORREÇÃO P-1: Otimização para Next/Image
                     />
                 </div>
             </div>
