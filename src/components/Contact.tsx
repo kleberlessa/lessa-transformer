@@ -74,17 +74,17 @@ const Contact: React.FC = () => {
           <p className="text-gray-500 text-sm">Ou entre em contato diretamente:</p>
           <div className="flex justify-center space-x-6 mt-4">
             {/* Links sociais rápidos - COM FOCUS STATE PARA ACESSIBILIDADE */}
-            <a href="mailto:kleber@exemplo.com" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+            <a href="mailto:kleberlessa@duck.com" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               Email
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+            <a href="https://www.linkedin.com/in/kleber-lessa-0146202ab" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               LinkedIn
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
+            <a href="https://github.com/kleberlessa" target="_blank" rel="noopener noreferrer" className="text-[#4ecdc4] hover:text-[#8ed2cc] transition duration-200 font-medium 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4ecdc4] rounded-md"
             >
               GitHub
