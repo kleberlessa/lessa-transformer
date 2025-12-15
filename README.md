@@ -2,15 +2,15 @@
 
 Um website pessoal de página única (SPA-style) criado como ponto de partida para a transição de carreira de Designer/Ilustrador para **Desenvolvedor Web Full-Stack e Entusiasta de IA**.
 
-`Um portfólio moderno e de alta performance, projetado para desenvolvedores Full-Stack que valorizam velocidade, segurança e experiência do usuário. Construído com tecnologias de ponta, este projeto serve como uma vitrine de projetos e habilidades técnicas.
+Um portfólio moderno e de alta performance, projetado para desenvolvedores Full-Stack que valorizam velocidade, segurança e experiência do usuário. Construído com tecnologias de ponta, este projeto serve como uma vitrine de projetos e habilidades técnicas.
 
 ## ✨ Destaques do Projeto
 
-* ****Next.js (App Router):**** Estrutura moderna e alto desempenho para renderização.
-* ****TypeScript:**** Garantia de segurança de tipos e código escalável.
-* ****Tailwind CSS:**** Desenvolvimento rápido e consistente com utilitários CSS.
-* ****Design Dark Mode:**** Paleta de cores focada em contraste (Ciano `#4ecdc4` e Vermelho/Rosa `#cc4a4a`) com acessibilidade WCAG AA garantida.
-* ****Performance:**** Otimizações de imagem (Next/Image) e correções de Hydration Error.
+* **Next.js (App Router):** Estrutura moderna e alto desempenho para renderização.
+* **TypeScript:** Garantia de segurança de tipos e código escalável.
+* **Tailwind CSS:** Desenvolvimento rápido e consistente com utilitários CSS.
+* **Design (Dark Mode):** Paleta de cores focada em contraste (Ciano `#4ecdc4` e Vermelho/Rosa `#cc4a4a`) com acessibilidade WCAG AA garantida.
+* **Performance:** Otimizações de imagem (Next/Image) e correções de Hydration Error.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -29,20 +29,26 @@ Siga estes passos para configurar e executar o projeto em seu ambiente local.
 
 ### 1. Clonar o Repositório
 
-git clone [https://github.com/kleberlessa/lessa-transformer.git](https://github.com/kleberlessa/lessa-transformer.git)
-cd lessa-transformer`
+```bash
+git clone https://github.com/kleberlessa/lessa-transformer.git
+cd lessa-transformer
+```
 
 ### 2. Instalar Dependências
 
-`npm install
+```bash
+npm install
 # ou
-yarn install`
+yarn install
+```
 
 ### 3. Executar o Servidor de Desenvolvimento
 
-`npm run dev
+```bash
+npm run dev
 # ou
-yarn dev`
+yarn dev
+```
 
 O projeto estará acessível em `http://localhost:3000`.
 
@@ -73,12 +79,14 @@ Conecte-se comigo!
 
 Desenvolvido por Kleber Lessa.
 
-`### 💾 Próximas Ações
+### 💾 Próximas Ações
 
-1.  **Salve** o arquivo `README.md` com o conteúdo acima.
-2.  **Lembre-se** de trocar os *placeholders* (Links e Email) pelos seus dados.
-3.  Execute os comandos Git para atualizar o repositório:
+1. **Salve** o arquivo `README.md` com o conteúdo acima.
+2. **Lembre-se** de trocar os *placeholders* (links e email) pelos seus dados.
+3. Execute os comandos Git para atualizar o repositório:
 
+```bash
 git add README.md
 git commit -m "docs: Estrutura final e coesa do README.md."
-git push origin main`
+git push origin main
+```
